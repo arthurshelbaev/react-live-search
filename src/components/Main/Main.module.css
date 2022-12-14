@@ -1,0 +1,94 @@
+.imgCase {
+    display: flex;
+    align-items: center;
+}
+.img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@400;700&display=swap');
+/* font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+.main {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    margin: 0 10px 0 15px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.name {
+    width: max-content;
+}
+
+.price {
+    width: max-content;
+}
+
+.buttonCase {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    width: 100%;
+    height: max-content;
+    background-color: white;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    color: dodgerblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding: 5px 0 5px 0;
+    box-shadow: 0 0 5px blue;
+    cursor: pointer;
+}
+
+.button:active {
+    box-shadow: 0 0 10px blue
+}
+
+.window {
+    position: absolute;
+    margin: 0 0 200px 30px;
+    display: flex;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 10px;
+}
+.message {
+    width: 100%;
+    font-size: 14px;
+    padding: 15px 15px 15px 20px;
+}
+
+.close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 17px;
+    width: 10px;
+    font-size: 8px;
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.close:active {
+    font-size: 5px;
+}
